@@ -16,7 +16,6 @@ def parse_vless(link):
 class HassaneApp(App):
     def build(self):
         layout = BoxLayout(orientation='vertical', padding=20, spacing=10)
-        
         self.label = Label(
             text='Hassane Monitor\nReady',
-            font_size='20sp',
+            font_size='20sp'  # هنا
