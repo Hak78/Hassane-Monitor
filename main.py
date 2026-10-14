@@ -2,7 +2,7 @@ from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
-import os, json, urllib.parse
+import urllib.parse
 
 def parse_vless(link):
     try:
@@ -19,4 +19,4 @@ class HassaneApp(App):
         
         self.label = Label(
             text='Hassane Monitor\nReady',
-            font_size='20
+            font_size='20sp',
